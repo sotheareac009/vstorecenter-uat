@@ -7,6 +7,5 @@ wp-content/uploads/
 wp-content/debug.log
 *.zip
 
-# Composer vendor directories (at any depth)
-vendor/
-**/vendor/
+# Exclude only the README that contains an example Stripe key (not a real secret)
+wp-content/plugins/user-registration/vendor/stripe/stripe-php/README.md
