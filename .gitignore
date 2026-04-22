@@ -1,28 +1,11 @@
 # WordPress sensitive config
 wp-config.php
-
 # Uploads and user-generated content
 wp-content/uploads/
-
-# Cache
-wp-content/cache/
-wp-content/advanced-cache.php
-wp-content/wp-cache-config.php
-
-# Logs
-*.log
-error_log
-
-# OS files
+.htaccess
 .DS_Store
-Thumbs.db
-
-# Node
-node_modules/
-
-# Env files
-.env
-.env.*
+wp-content/debug.log
+*.zip
 
 # Composer vendor directories (at any depth)
 vendor/
